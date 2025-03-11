@@ -7,7 +7,7 @@ from babel.numbers import format_currency
 sns.set(style='dark')
 
 # Load dataset
-file_path = "main_data.csv"
+file_path = "https://github.com/DhiraDroid/submission1/blob/main/dashboard/main_data.csv"
 bike_data = pd.read_csv(file_path)
 
 # Konversi kolom tanggal jika diperlukan
